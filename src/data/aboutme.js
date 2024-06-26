@@ -1,15 +1,14 @@
+//src/data/aboutme.js
+import contacts from './contacts';
+import technologies from './technologies';
 
-const aboutMe = {
-    profilePicture: `${process.env.PUBLIC_URL}/logo512.png`,
-    introduction: "Sample text",
-    resumeUrl: `${process.env.PUBLIC_URL}/resume.pdf`,
-    contactInfo: [
-        {
-            logo: `${process.env.PUBLIC_URL}/logo192.png`,
-            url: "dhawk064@gmail.com",
-            name: "Email"
-        }
-    ]
+const aboutme = {
+    technologies: Object.values(technologies),
+    contacts : contacts,
+    profilephoto: 'project media/jp.png',
+    title: "About Me",
+    paragraph: 
+    `I am a second year student at the University of Minnesota, in the College of Science and Engineering. I have a passion for computer science and software engineering, and am looking to build a professional career in the field. I am currently interning at Graco as a software engineer.`
 };
 
-export default aboutMe;
+export default aboutme;

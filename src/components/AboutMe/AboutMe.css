@@ -1,0 +1,57 @@
+.about-me {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 1); /* Outline for the main container */
+  }
+  
+  .top-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border: 1px solid rgba(255, 255, 255, 1); /* Outline for the top section */
+  }
+  
+  .left-section {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-right: 20px;
+    border: 1px solid rgba(255, 255, 255, 1); /* Outline for the left section */
+  }
+  
+  .profile-photo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    border: 1px solid rgba(255, 255, 255, 1); /* Outline for the profile photo container */
+  }
+  
+  .profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 1); /* Outline for the profile photo */
+  }
+  
+  .name {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .right-section {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(255, 255, 255, 1); /* Outline for the right section */
+  }
+  
+  .bottom-section {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(255, 255, 255, 1); /* Outline for the bottom section */
+  }
+  

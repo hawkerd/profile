@@ -1,4 +1,5 @@
 // src/data/contacts.js
+
 const contacts = [
     {
         logo: 'logos/gmail.png',

@@ -1,4 +1,4 @@
-// src/data/technologyData.js
+// src/data/technologies.js
 
 const technologies = {
     /* Backend programming languages */
