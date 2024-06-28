@@ -1,0 +1,42 @@
+/* src/components/Elements/ProfileBox/ProfileBox.css */
+
+.profileBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: solid;
+    border-color: black;
+}
+
+.profileBox-photo {
+    width: 200px;
+    height: 200px;
+}
+
+.profileBox-info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.profileBox-name {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.profileBox-title {
+    font-size: 1rem;
+    margin: 0;
+    color: gray;
+}
+
+.profileBox-contacts {
+    display: flex;
+    flex-direction: column;
+}
+
+.profileBox-socials {
+    display: flex;
+    flex-direction: row;
+}
