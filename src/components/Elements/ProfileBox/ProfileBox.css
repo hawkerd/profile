@@ -6,6 +6,7 @@
     align-items: center;
     border-style: solid;
     border-color: black;
+    max-width: 300px;
 }
 
 .profileBox-photo {
