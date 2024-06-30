@@ -3,35 +3,27 @@
 .technology {
     display: flex;
     flex-direction: column;
-
-    /* border */
     border: 1px solid #122bcf;
     border-radius: 8px;
-
-    /* spacing */
     padding: 4px;
-    margin: 2px;
     align-items: center;
-
-    /* shadow */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.3s ease;
 }
 .technology:hover {
     box-shadow: 0 8px 16px rgba(255, 26, 221, 0.2);
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
-.technology-logo {
+.logo {
     width: 40px;
     height: 40px;
     object-fit: contain;
     margin-bottom: 2px;
 }
   
-.technology-name {
+.name {
     font-size: 0.6em;
-    margin: 0;
     text-align: center;
 }
   

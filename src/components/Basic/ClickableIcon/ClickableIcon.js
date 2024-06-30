@@ -7,7 +7,7 @@ const ClickableIcon = ({ iconPath, iconName, linkUrl }) => {
         <a className="link" href={linkUrl} target="_blank" rel="noopener noreferrer">
             <div className="icon">
                 <img className="image" src={iconPath} alt={iconName} />
-                <span className="name">{iconName}</span>
+                <span className="icon-name">{iconName}</span>
             </div>
         </a>
     );

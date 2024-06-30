@@ -6,14 +6,12 @@
   justify-items: top;
 }
 
-.main {
+.main-content {
   flex: 4;
   display: flex;
   flex-direction: column;
 }
 
-.name {
-  text-align: left;
-  font-size: 4em;
-  margin: 10px;
+.profile-box {
+  flex: 1;
 }

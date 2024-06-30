@@ -12,58 +12,46 @@
     transition: box-shadow 0.3s ease;
     text-align: left;
 }
-  
 .project:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-/* Project title */
-.project-title {
+.title {
     font-size: 1.5em;
     margin: 16px 0;
     text-align: center;
 }
-/* Project title link */
-.project-title a {
+.title a {
     color: #1b71ce;
     text-decoration: none;
     transition: color 0.3s ease;
 }
-.project-title a:hover {
+.title a:hover {
     color: #0056b3;
 }
 
-/* Project summary */
-.project-summary {
+.summary {
     font-size: 1em;
     margin: 8px 0;
     text-align: center;
 }
 
-/* Project features */
-.project-features {
+.details {
     list-style-type: disc;
     padding-left: 20px;
     text-align: left;
 }
-.project-feature {
-    font-size: 1em;
-    color: #666;
-    margin: 8px 0;
-    text-align: left;
-}
 
-/* Project technologies */
-.project-technologies {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-/* Project media */
-.project-media {
+.media {
     max-width: 100%;
     display: flex;
     justify-content: center;
     margin: 16px 0;
+}
+
+.technologies {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3px;
 }

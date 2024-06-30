@@ -1,4 +1,4 @@
-const profileBox = {
+const profile = {
     profilePhotoUrl: 'project media/jp.png',
     name: 'Daniel Hawker',
     title: 'Software Engineer',
@@ -38,4 +38,4 @@ const profileBox = {
     ]
 }
 
-export default profileBox;
+export default profile;

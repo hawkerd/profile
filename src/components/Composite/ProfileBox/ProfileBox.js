@@ -2,24 +2,27 @@
 import React from 'react';
 import './ProfileBox.css';
 
-import Contact from '../../GUI/Contact/Contact';
-import ClickableIcon from '../../GUI/ClickableIcon/ClickableIcon';
+/* Import Components */
+import Contact from '../../Basic/Contact/Contact';
+import ClickableIcon from '../../Basic/ClickableIcon/ClickableIcon';
+/* Import Data */
+import profile from '../../../data/profile';
 
-const ProfileBox = ({profilePhotoUrl, name, title, contacts, socials}) => {
+const ProfileBox = () => {
     return (
         <div className="profileBox">
-            <img className="profileBox-photo" src={profilePhotoUrl} alt={name} />
+            <img className="profileBox-photo" src={profile.profilePhotoUrl} alt={profile.name} />
             <div className="profileBox-info">
-                <span className="profileBox-name">{name}</span>
-                <span className="profileBox-title">{title}</span>
+                <span className="profileBox-name">{profile.name}</span>
+                <span className="profileBox-title">{profile.title}</span>
             </div>
             <div className="profileBox-contacts">
-                {contacts.map((contact, index) => (
+                {profile.contacts.map((contact, index) => (
                     <Contact key={index} iconPath={contact.iconPath} platform={contact.platform} address={contact.address} />
                 ))}
             </div>
             <div className="profileBox-socials">
-                {socials.map((social, index) => (
+                {profile.socials.map((social, index) => (
                     <ClickableIcon key={index} iconPath={social.iconPath} iconName={social.iconName} linkUrl={social.linkUrl} />
                 ))}
             </div>

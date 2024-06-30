@@ -1,24 +1,25 @@
 /* src/components/Elements/HeaderBar/HeaderBar.css */
 
-.headerBar {
+.header-bar {
     display: flex;
     justify-content: space-between;
     background-color: rgb(129, 129, 129);
     height: 40px;
     padding-top: 4px;
+    border-style: solid;
 }
 
-.headerBar-title {
+.bar-title {
     margin: 2px;
 }
 
-.headerBar-buttons {
+.buttons {
     display: flex;
     background-color: inherit;
     gap: 2px;
 }
 
-.headerBar button {
+.header-bar button {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     height: 100%;
@@ -26,7 +27,7 @@
     width: 150px;
 }
 
-.headerBar button:hover {
+.header-bar button:hover {
     background-color: darkgray;
 }
 
