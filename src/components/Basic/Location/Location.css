@@ -1,0 +1,11 @@
+/* src/components/Basic/Location/Location.css */
+.location {
+    display: flex;
+    align-items: center;
+}
+
+.location__icon {
+    height: 16px;
+    width: 16px;
+    margin-right: 8px;
+}

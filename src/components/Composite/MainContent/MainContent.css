@@ -1,6 +1,6 @@
 /* src/components/Composite/MainContent/MainContent.css */
 
-.mainContent {
+.main-content {
     display: flex;
     flex-direction: column;
     justify-content: center;

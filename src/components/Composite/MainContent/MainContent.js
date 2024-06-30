@@ -25,7 +25,7 @@ const MainContent = () => {
     };
 
     return (
-        <div className="mainContent">
+        <div className="main-content">
             <HeaderBar setContent={setContent} content={content}/>
             {renderContent()}
         </div>

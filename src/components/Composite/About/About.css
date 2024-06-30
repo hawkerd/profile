@@ -1,5 +1,5 @@
 /* src/components/Composite/About.About.css */
-.cards {
+.about__cards {
     display: flex;
     flex-direction: row;
 }

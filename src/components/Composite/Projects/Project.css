@@ -16,40 +16,40 @@
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-.title {
+.project__title {
     font-size: 1.5em;
     margin: 16px 0;
     text-align: center;
 }
-.title a {
+.project__title a {
     color: #1b71ce;
     text-decoration: none;
     transition: color 0.3s ease;
 }
-.title a:hover {
+.project__title a:hover {
     color: #0056b3;
 }
 
-.summary {
+.project__summary {
     font-size: 1em;
     margin: 8px 0;
     text-align: center;
 }
 
-.details {
+.project__details {
     list-style-type: disc;
     padding-left: 20px;
     text-align: left;
 }
 
-.media {
+.project__media {
     max-width: 100%;
     display: flex;
     justify-content: center;
     margin: 16px 0;
 }
 
-.technologies {
+.project__technologies {
     display: flex;
     flex-direction: row;
     justify-content: center;

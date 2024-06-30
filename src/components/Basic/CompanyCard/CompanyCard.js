@@ -4,11 +4,11 @@ import './CompanyCard.css';
 
 const CompanyCard = ({ logoUrl, name, position }) => {
     return (
-        <div className="companyCard">
-            <img className="icon" src={logoUrl} alt={name} />
-            <div className="info">
-                <span className="name">{name}</span>
-                <span className="position">{position}</span>
+        <div className="company-card">
+            <img className="company-card__icon" src={logoUrl} alt={name} />
+            <div className="company-card__info">
+                <span className="company-card__info__name">{name}</span>
+                <span className="company-card__info__position">{position}</span>
             </div>
         </div>
     );

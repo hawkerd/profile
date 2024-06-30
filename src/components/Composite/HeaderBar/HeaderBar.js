@@ -2,7 +2,7 @@
 import React from 'react';
 import './HeaderBar.css';
 
-const HeaderBar = ({ title, content, setContent }) => {
+const HeaderBar = ({ content, setContent }) => {
     const headerTitle = () => {
         switch (content) {
             case 'about':
@@ -18,22 +18,22 @@ const HeaderBar = ({ title, content, setContent }) => {
 
     return (
         <div className="header-bar">
-            <h3 className="bar-title">{headerTitle()}</h3>
-            <div className="buttons">
+            <h3 className="header-bar__title">{headerTitle()}</h3>
+            <div className="header-bar__buttons">
                 <button 
-                    className={content === 'about' ? 'active' : 'inactive'} 
+                    className={content === 'about' ? 'header-bar__buttons--active' : 'header-bar__buttons--inactive'} 
                     onClick={() => setContent('about')}
                 >
                     About
                 </button>
                 <button 
-                    className={content === 'resume' ? 'active' : 'inactive'} 
+                    className={content === 'resume' ? 'header-bar__buttons--active' : 'header-bar__buttons--inactive'} 
                     onClick={() => setContent('resume')}
                 >
                     Resume
                 </button>
                 <button 
-                    className={content === 'projects' ? 'active' : 'inactive'} 
+                    className={content === 'projects' ? 'header-bar__buttons--active' : 'header-bar__buttons--inactive'} 
                     onClick={() => setContent('projects')}
                 >
                     Projects

@@ -1,0 +1,12 @@
+/* src/components/Basic/DateRange/DateRange.css */
+
+.date-range {
+    display: flex;
+    align-items: center;
+}
+
+.date-range__icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+}

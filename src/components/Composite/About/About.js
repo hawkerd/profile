@@ -11,7 +11,7 @@ const About = () => {
     return (
         <div className="about">
             <p>{about.paragraph}</p>
-            <div className="cards">
+            <div className="about__cards">
                 {about.cards.map((card, index) => (
                     <CompanyCard
                         key={index}

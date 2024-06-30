@@ -1,1 +1,7 @@
 /* src/components/Composite/Resume/Resume.css */
+
+.resume {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}

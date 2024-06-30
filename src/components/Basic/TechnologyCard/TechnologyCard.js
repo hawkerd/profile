@@ -4,9 +4,9 @@ import './TechnologyCard.css';
 
 const TechnologyCard = ({logo, name}) => {
     return (
-        <div className="technology">
-            <img className="logo" src={logo} alt={name}/>
-            <h3 className="name">{name}</h3>
+        <div className="technology-card">
+            <img className="technology-card__logo" src={logo} alt={name}/>
+            <h3 className="technology-card__name">{name}</h3>
         </div>
     );
 };

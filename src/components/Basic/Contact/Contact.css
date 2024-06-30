@@ -8,24 +8,24 @@
     overflow: hidden;
 }
 
-.contact-icon {
+.contact__icon {
     height: 3rem;
     width: 3rem;
     border-radius: 5px;
     margin-right: 15px;
 }
 
-.contact-info {
+.contact__info {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
-.contact-platform {
+.contact__info__platform {
     font-size: 1rem;
 }
 
-.contact-address {
+.contact__info__address {
     font-size: 0.8rem;
     color: gray;
 }

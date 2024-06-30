@@ -1,6 +1,6 @@
 /* src/components/Basic/ClickableIcon/ClickableIcon.css */
 
-.link {
+.clickable-icon__link {
     text-decoration: none;
     color: inherit;
     width: 4rem;
@@ -11,18 +11,18 @@
     padding: 4px;
 }
 
-.icon {
+.clickable-icon {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.image {
+.clickable-icon__image {
     width: 2.5rem;
     height: 2.5rem;
     margin-bottom: 4px;
 }
 
-.icon-name {
+.clickable-icon__name {
     font-size: 0.8rem;
 }

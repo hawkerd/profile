@@ -1,6 +1,6 @@
 /* src/components/Basic/CompanyCard/CompanyCard.css */
 
-.companyCard {
+.company-card {
     display: flex;
     align-items: center;
     border: 1px solid #ccc;
@@ -16,25 +16,25 @@
     transform: translateY(-5px);
 }
 
-.icon {
+.company-card__icon {
     width: 100px;
     height: 80px;
-    object-fit: cover;
+    object-fit: contain;
     margin-right: 16px;
 }
 
-.info {
+.company-card__info {
     display: flex;
     flex-direction: column;
 }
 
-.name {
+.company-card__info__name {
     font-size: 1.25rem;
     font-weight: bold;
     margin: 0;
 }
 
-.position {
+.company-card__info__position {
     font-size: 1rem;
     color: #666;
     margin: 0;

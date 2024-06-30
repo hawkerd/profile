@@ -5,10 +5,10 @@ import './Contact.css';
 const Contact = ({ iconPath, platform, address }) => {
     return (
         <div className="contact">
-            <img className="contact-icon" src={iconPath} alt={platform} />
-            <div className="contact-info">
-                <span className="contact-platform">{platform}</span>
-                <span className="contact-address">{address}</span>
+            <img className="contact__icon" src={iconPath} alt={platform} />
+            <div className="contact__info">
+                <span className="contact__info__platform">{platform}</span>
+                <span className="contact__info__address">{address}</span>
             </div>
         </div>
     );

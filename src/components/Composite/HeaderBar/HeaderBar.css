@@ -3,17 +3,16 @@
 .header-bar {
     display: flex;
     justify-content: space-between;
-    background-color: rgb(129, 129, 129);
+    background-color: #818181;
     height: 40px;
     padding-top: 4px;
-    border-style: solid;
 }
 
-.bar-title {
+.header-bar__title {
     margin: 2px;
 }
 
-.buttons {
+.header-bar__buttons {
     display: flex;
     background-color: inherit;
     gap: 2px;
@@ -31,10 +30,10 @@
     background-color: darkgray;
 }
 
-.active {
+.header-bar__buttons--active {
     background-color: darkgray;
 }
 
-.inactive {
+.header-bar__buttons--inactive {
     background-color: inherit;
 }
