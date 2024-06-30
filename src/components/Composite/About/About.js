@@ -1,4 +1,4 @@
-/* src/components/Elements/About.About.js */
+/* src/components/Composite/About.About.js */
 import React from 'react';
 import './About.css'
 

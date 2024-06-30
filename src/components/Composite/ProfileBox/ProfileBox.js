@@ -1,4 +1,4 @@
-/* src/components/Elements/ProfileBox/ProfileBox.js */
+/* src/components/Composite/ProfileBox/ProfileBox.js */
 import React from 'react';
 import './ProfileBox.css';
 

@@ -1,4 +1,4 @@
-/* src/components/GUI/CompanyCard/CompanyCard.js */
+/* src/components/Basic/CompanyCard/CompanyCard.js */
 import React from 'react';
 import './CompanyCard.css';
 

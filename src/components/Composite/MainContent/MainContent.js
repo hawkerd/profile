@@ -1,4 +1,4 @@
-// src/components/Elements/MainContent/MainContent.js
+/* src/components/Composite/MainContent/MainContent.js */
 import React, { useState } from 'react';
 import './MainContent.css';
 
@@ -6,6 +6,7 @@ import './MainContent.css';
 import HeaderBar from '../HeaderBar/HeaderBar';
 import About from '../About/About';
 import Projects from '../Projects/Projects';
+import Resume from '../Resume/Resume';
 
 const MainContent = () => {
     const [content, setContent] = useState('about');
@@ -15,9 +16,11 @@ const MainContent = () => {
             case 'about':
                 return <About/>;
             case 'resume':
-                return <div></div>
+                return <Resume/>;
             case 'projects':
                 return <Projects/>;
+            default:
+                return <About/>;
         }
     };
 

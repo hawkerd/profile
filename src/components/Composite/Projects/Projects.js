@@ -1,3 +1,4 @@
+/* src/components/composite/Projects/Projects.js */
 import React from 'react';
 import './Projects.css';
 

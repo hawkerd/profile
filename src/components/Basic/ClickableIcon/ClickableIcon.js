@@ -1,4 +1,4 @@
-/* src/components/GUI/ClickableIcon/ClickableIcon.js */
+/* src/components/Basic/ClickableIcon/ClickableIcon.js */
 import React from 'react';
 import './ClickableIcon.css';
 

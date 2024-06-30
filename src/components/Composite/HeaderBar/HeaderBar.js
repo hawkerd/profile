@@ -1,5 +1,5 @@
-/* src/components/Elements/HeaderBar/HeaderBar.js */
-import React, { useState } from 'react';
+/* src/components/Composite/HeaderBar/HeaderBar.js */
+import React from 'react';
 import './HeaderBar.css';
 
 const HeaderBar = ({ title, content, setContent }) => {
@@ -11,6 +11,8 @@ const HeaderBar = ({ title, content, setContent }) => {
                 return 'Resume';
             case 'projects':
                 return 'Projects';
+            default:
+                return 'About';
         }
     };
 
