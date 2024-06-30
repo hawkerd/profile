@@ -1,0 +1,43 @@
+/* src/components/Gui/CompanyCard/CompanyCard.css */
+
+/* src/components/GUI/CompanyCard/CompanyCard.css */
+
+.companyCard {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px 0;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.company-card:hover {
+    transform: translateY(-5px);
+}
+
+.icon {
+    width: 100px;
+    height: 80px;
+    object-fit: cover;
+    margin-right: 16px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.position {
+    font-size: 1rem;
+    color: #666;
+    margin: 0;
+}

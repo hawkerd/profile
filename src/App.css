@@ -1,6 +1,15 @@
 .App {
   text-align: center;
   background-color: #f7f4f4;
+  display: flex;
+  flex-direction: row;
+  justify-items: top;
+}
+
+.main {
+  flex: 4;
+  display: flex;
+  flex-direction: column;
 }
 
 .name {

@@ -2,26 +2,26 @@
 import React from 'react';
 import './HeaderBar.css';
 
-const HeaderBar = ({ setCurrentSection, currentSection }) => {
+const HeaderBar = ({ title, section, setSection }) => {
     return (
         <div className="headerBar">
-            <h3 className="headerBar-title">Header Bar</h3>
+            <h3 className="headerBar-title">{title}</h3>
             <div className="headerBar-buttons">
                 <button 
-                    className={currentSection === 'aboutMe' ? 'active' : 'inactive'} 
-                    onClick={() => setCurrentSection('aboutMe')}
+                    className={section === 'about' ? 'active' : 'inactive'} 
+                    onClick={() => setSection('about')}
                 >
-                    About Me
+                    About
                 </button>
                 <button 
-                    className={currentSection === 'resume' ? 'active' : 'inactive'} 
-                    onClick={() => setCurrentSection('resume')}
+                    className={section === 'resume' ? 'active' : 'inactive'} 
+                    onClick={() => setSection('resume')}
                 >
                     Resume
                 </button>
                 <button 
-                    className={currentSection === 'projects' ? 'active' : 'inactive'} 
-                    onClick={() => setCurrentSection('projects')}
+                    className={section === 'projects' ? 'active' : 'inactive'} 
+                    onClick={() => setSection('projects')}
                 >
                     Projects
                 </button>

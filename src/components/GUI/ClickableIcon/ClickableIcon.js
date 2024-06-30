@@ -4,10 +4,10 @@ import './ClickableIcon.css';
 
 const ClickableIcon = ({ iconPath, iconName, linkUrl }) => {
     return (
-        <a className="clickableIcon-link" href={linkUrl} target="_blank" rel="noopener noreferrer">
-            <div className="clickableIcon">
-                <img className="clickableIcon-image" src={iconPath} alt={iconName} />
-                <span className="clickableIcon-name">{iconName}</span>
+        <a className="link" href={linkUrl} target="_blank" rel="noopener noreferrer">
+            <div className="icon">
+                <img className="image" src={iconPath} alt={iconName} />
+                <span className="name">{iconName}</span>
             </div>
         </a>
     );

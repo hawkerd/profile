@@ -2,14 +2,41 @@
 import React, { useState } from 'react';
 import './App.css';
 
-/* Import components and data */
+/* Import components */
 import ProfileBox from './components/Elements/ProfileBox/ProfileBox';
-import profileBox from './data/profileBox';
 import HeaderBar from './components/Elements/HeaderBar/HeaderBar';
+import About from './components/Elements/About/About';
+
+/* Import data */
+import profileBox from './data/profileBox';
+import about from './data/about';
 
 function App() {
-    const [currentSection, setCurrentSection] = useState('aboutMe');
-
+    const [section, setSection] = useState('about');
+    const renderSection = () => {
+        switch (section) {
+            case 'about':
+                return <About paragraph={about.paragraph} cards={about.cards}/>;
+            case 'resume':
+                //return <Experience />;
+            case 'projects':
+                //return <Projects />;
+            default:
+                //return <About />;
+        }
+    };
+    const headerTitle = () => {
+        switch (section) {
+            case 'about':
+                return 'About';
+            case 'resume':
+                return 'Resume';
+            case 'projects':
+                return 'Projects';
+            default:
+                return 'About';
+        }
+    }
     return (
         <div className="App">
             <ProfileBox
@@ -19,10 +46,14 @@ function App() {
                 contacts={profileBox.contacts}
                 socials={profileBox.socials}
             />
-            <HeaderBar
-                currentSection={currentSection}
-                setCurrentSection={setCurrentSection}
-            />
+            <div className="main">
+                <HeaderBar
+                    title={headerTitle()}
+                    section={section}
+                    setSection={setSection}
+                />
+                {renderSection()}
+            </div>
         </div>
     );
 };
