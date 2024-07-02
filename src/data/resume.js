@@ -1,28 +1,55 @@
+/* src/data/resume.js */
+import technologies from './technologies';
+
 const resume = {
-    educationPositions: [
-        {
-            logoUrl: 'icons/umn.png',
-            name: 'University of Minnesota (College of Science and Engineering)',
-            position: 'B.S. Computer Science, Mathematics Minor',
-            dateRange: { start: 'September 2022', end: 'May 2025' },
-            location: { city: 'Minneapolis', state: 'Minnesota', country: 'USA'},
-            details: [
-                'Academic performance: 3.941 GPA, CSE Dean\'s List'
-            ]
-        },
-        {
-            logoUrl: 'icons/mg.png',
-            name: 'Monona Grove High School',
-            position: 'Student',
-            dateRange: { start: 'September 2018', end: 'June 2022' },
-            location: { city: 'Monona', state: 'Wisconsin', country: 'USA' },
-            details: [
-                'Academic performance: 3.99 GPA, 8 APs, 35 ACT, 1550 SAT',
-                'Honors and Awards: National Merit Scholar, National Honor Society, Hockey Team Academic Captain',
-                'Involvement: Varsity Ice Hockey'
-            ]
-        }
-    ],
+    techStack: {
+        backend: [
+            technologies.C,
+            technologies.CPlusPlus,
+            technologies.Python,
+            technologies.Java,
+            technologies.OCaml,
+            technologies.StructuredText,
+            technologies.Assembly
+        ],
+        frontend: [
+            technologies.JavaScript,
+            technologies.HTML,
+            technologies.CSS,
+            technologies.TypeScript
+        ],
+        technologies: [
+            technologies.OpenGL,
+            technologies.SQLite,
+            technologies.NodeJs,
+            technologies.React
+        ],
+        tools: [
+            technologies.Git,
+            technologies.Docker,
+            technologies.GDB,
+            technologies.R,
+            technologies.Valgrind,
+            technologies.UML
+        ],
+        software: [
+            technologies.Atlassian,
+            technologies.Office,
+            technologies.CoDeSys,
+            technologies.VsCode,
+            technologies.IntelliJ,
+            technologies.MatLab,
+            technologies.Mathematica,
+            technologies.GitHub,
+            technologies.DockerHub
+        ],
+        systems: [
+            technologies.Linux,
+            technologies.Windows,
+            technologies.MacOS
+        ],
+
+    },
     workPositions: [
         {
             logoUrl: 'icons/graco.png',
@@ -62,6 +89,30 @@ const resume = {
                 'Worked part-time seasonally for a local beloved ice cream shop. Situated on Lake Monona, it is a very popular destination in Madison!',
                 'Cooked food, scooped ice cream, cleaned, and provided great customer service',
                 'Worked with a small crew or alone, depending on the store needs.'
+            ]
+        }
+    ],
+    educationPositions: [
+        {
+            logoUrl: 'icons/umn.png',
+            name: 'University of Minnesota (College of Science and Engineering)',
+            position: 'B.S. Computer Science, Mathematics Minor',
+            dateRange: { start: 'September 2022', end: 'May 2025' },
+            location: { city: 'Minneapolis', state: 'Minnesota', country: 'USA'},
+            details: [
+                'Academic performance: 3.941 GPA, CSE Dean\'s List'
+            ]
+        },
+        {
+            logoUrl: 'icons/mg.png',
+            name: 'Monona Grove High School',
+            position: 'Student',
+            dateRange: { start: 'September 2018', end: 'June 2022' },
+            location: { city: 'Monona', state: 'Wisconsin', country: 'USA' },
+            details: [
+                'Academic performance: 3.99 GPA, 8 APs, 35 ACT, 1550 SAT',
+                'Honors and Awards: National Merit Scholar, National Honor Society, Hockey Team Academic Captain',
+                'Involvement: Varsity Ice Hockey'
             ]
         }
     ]

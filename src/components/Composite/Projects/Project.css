@@ -1,8 +1,8 @@
 /* src/components/composite/Projects/Project.css */
 
 .project {
-    background-color:#dcdcdc64;
-    border: 1px solid #2d3baa;
+    background-color: rgba(209, 207, 228, 0.8);
+    border: 2px solid black;
     border-radius: 8px;
     padding: 16px;
     margin: 16px;
@@ -47,11 +47,4 @@
     display: flex;
     justify-content: center;
     margin: 16px 0;
-}
-
-.project__technologies {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 3px;
 }

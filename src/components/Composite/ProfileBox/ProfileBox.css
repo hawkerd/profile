@@ -1,18 +1,21 @@
 /* src/components/Composite/ProfileBox/ProfileBox.css */
 
 .profile-box {
-    flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-style: solid;
-    border-color: black;
+    border-radius: 12px;
+    border: 2px solid black;
     max-width: 300px;
+    background-color: rgba(209, 207, 228, 0.8);
+    margin: 15px;
+    padding: 15px;
 }
 
 .profile-box__photo {
     width: 200px;
     height: 200px;
+    border-radius: 12px;
 }
 
 .profile-box__info {

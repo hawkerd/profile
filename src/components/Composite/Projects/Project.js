@@ -3,7 +3,7 @@ import React from 'react';
 import './Project.css';
 
 /* Import Components */
-import TechnologyCard from '../../Basic/TechnologyCard/TechnologyCard';
+import TechnologyCardList from '../../Composite/TechnologyCardList/TechnologyCardList';
 
 const Project = ({title, url, summary, details, technologies, media}) => {
     return (
@@ -16,9 +16,7 @@ const Project = ({title, url, summary, details, technologies, media}) => {
             <ul className="project__details">
                 {details.map((detail, index) => <li key={index}>{detail}</li>)}
             </ul>
-            <div className="project__technologies">
-                {technologies.map((technology, index) => <TechnologyCard key={index} logo={technology.logo} name={technology.name} />)}
-            </div>
+            <TechnologyCardList technologies={technologies} />
         </div>
     );
 };

@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-  background-color: #f7f4f4;
   display: flex;
   flex-direction: row;
   justify-items: top;
@@ -14,4 +13,5 @@
 
 .profile-box {
   flex: 1;
+  align-self: flex-start;
 }

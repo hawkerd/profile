@@ -1,0 +1,7 @@
+.technology-card-list {
+    padding: 2px;
+    margin: 2px;
+    display: flex;
+    gap: 4px;
+    justify-content: center;
+}

@@ -4,7 +4,9 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    border-style: solid;
+    border: 2px solid black;
+    background-color: rgba(209, 207, 228, 0.8);
+    border-radius: 12px;
 }
 
 .position__header {
@@ -34,8 +36,8 @@
 }
 
 .position__header__meta {
-
+    text-align: right;
 }
 .position__details {
-
+    text-align: left;
 }
