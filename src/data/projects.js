@@ -8,6 +8,7 @@ const projects = [
         url: "https://hub.docker.com/repository/docker/hawkerd/drone_simulation_final/general",
         summary: "Advanced model that simulates a drone package delivery system surrounding the University of Minnesota",
         details: [
+            "This project was done through the University of Minnesota's CSCI 3081W course. It was a semester-long project that involved creating a drone package delivery system. I worke",
             "Integrated backend C++ logic with frontend HTML, CSS, and TypeScript using JSON.",
             "Used design patterns like Builder, Decorator, and Abstract Factory to improve and add functionality.",
             "Worked on a team with three other students, using Jira for project management and Git for version control."

@@ -40,7 +40,7 @@ const technologies = {
     React: { logo: 'icons/react.png', name: 'React' },
     GitHub: { logo: 'icons/github.png', name: 'GitHub' },
     DockerHub: { logo: 'icons/docker.png', name: 'DockerHub' },
-    Assembly: { logo: 'icons/assembly.png', name: 'x86 ASM' },
+    Assembly: { logo: 'icons/intel.png', name: 'x86 ASM' },
 };
 
 export default technologies;
