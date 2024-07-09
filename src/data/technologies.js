@@ -1,8 +1,5 @@
 // src/data/technologies.js
 
-import { getSpaceUntilMaxLength } from "@testing-library/user-event/dist/utils";
-import React from "react";
-
 const technologies = {
     /* Backend programming languages */
     C: { logo: 'icons/c.png', name: 'C' },
