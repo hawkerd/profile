@@ -59,24 +59,23 @@ const resume = {
             location: { city: 'Minneapolis', state: 'Minnesota', country: 'USA' },
             details: [
                 'Worked on the software development team of ProMix V, Graco’s upcoming flagship proportioning system.',
-                'Developed, tested, refactored, and bug fixed code written in C and Structured Text to help Graco meet their product deadlines and release dates.',
-                'Practiced agile development with a Minneapolis team and an offshore team in India through Jira. Regular standups, sprints, retrospectives, and releases.',
-                'Reviewed and refined code and pull requests from offshore teams using Git and BitBucket.',
+                'Developed, tested, refactored, and bug fixed code written in C and Structured Text to help Graco meet their product deadlines and field test release dates.',
+                'Practiced agile development with a Minneapolis team and an offshore team in India through Jira.',
+                'Participated in daily standups and regular sprints, retrospectives, and release cycles.',
+                'Managed pull requests, code review, and revision for the offshore team using Git and BitBucket.',
                 'Learned how to develop software and work professionally under management with high expectations.'
             ]
         },
         {
             logoUrl: 'icons/coolsys.png',
             name: 'CoolSys',
-            position: 'Refrigeration Technician',
+            position: 'Refrigeration Technician 1',
             dateRange: { start: 'June 2022', end: 'August 2023' },
             location: { city: 'Madison', state: 'Wisconsin', country: 'USA' },
             details: [
-                'Cleaned commercial refrigeration systems across Wisconsin, Illinois, and Michigan.',
-                'Customers included chains like Woodman\'s, Target, Walgreens, HyVee, Costco, Aldi, and more',
-                'Collaborated with advanced technicians to perform repairs and maintenance.',
-                'Worked in teams of two to six, and alone when required.',
-                'Trained new employees, traveled for long periods of time, and had lots of responsibility'
+                'Cleaned and maintained commercial refrigeration systems across Wisconsin, Illinois, and Michigan for companies like Woodman\'s, Target, Costco, and Aldi.',
+                'Collaborated in teams of two to six, and also worked alone when required.',
+                'Trained new employees, traveled, and had lots of (expensive) responsibilities.'
             ]
         },
         {
@@ -86,9 +85,8 @@ const resume = {
             dateRange: { start: 'June 2018', end: 'October 2021' },
             location: { city: 'Monona', state: 'Wisconsin', country: 'USA' },
             details: [
-                'Worked part-time seasonally for a local beloved ice cream shop. Situated on Lake Monona, it is a very popular destination in Madison!',
-                'Cooked food, scooped ice cream, cleaned, and provided great customer service',
-                'Worked with a small crew or alone, depending on the store needs.'
+                'Worked seasonally for four years at a small bait and ice cream shop.',
+                'Cooked food, scooped ice cream, cleaned, and provided great customer service.',
             ]
         }
     ],
@@ -97,10 +95,12 @@ const resume = {
             logoUrl: 'icons/umn.png',
             name: 'University of Minnesota (College of Science and Engineering)',
             position: 'B.S. Computer Science, Mathematics Minor',
-            dateRange: { start: 'September 2022', end: 'May 2025' },
+            dateRange: { start: 'September 2022', end: 'Present (May 2025)' },
             location: { city: 'Minneapolis', state: 'Minnesota', country: 'USA'},
             details: [
-                'Academic performance: 3.941 GPA, CSE Dean\'s List'
+                'At the U, I truly found my stride and passion. I decided to study computer science because I love programming and problem solving, and it lines up closely with how I think; I have always been an engineer at heart. I am also studying mathematics, because I believe it teaches me to think critically, and is a foundation to any engineering discipline. I am hoping to use this education to propel me into a career in software engineering, where I can continue to learn and grow.',
+                'Academics: 3.941 GPA, CSE Dean\'s List',
+                'Relevant Coursework: Data Structures, Algorithms, Computer Architecture, Operating Systems, Discrete Mathematics, Linear Algebra, Calculus, Statistics, Physics'
             ]
         },
         {
@@ -110,9 +110,9 @@ const resume = {
             dateRange: { start: 'September 2018', end: 'June 2022' },
             location: { city: 'Monona', state: 'Wisconsin', country: 'USA' },
             details: [
-                'Academic performance: 3.99 GPA, 8 APs, 35 ACT, 1550 SAT',
-                'Honors and Awards: National Merit Scholar, National Honor Society, Hockey Team Academic Captain',
-                'Involvement: Varsity Ice Hockey'
+                'My time at MGHS was spent figuring out what I wanted to do with my life. I took a variety of technical classes, played on the hockey team, and worked part time. I left with a strong foundation in engineering and mathematics, and a desire to learn much more at the University of Minnesota.',
+                'Academics: 3.99 GPA, 35 ACT, 1550 SAT, 8 APs',
+                'Honors and Awards: National Merit Scholar, National Honor Society, Hockey Team Academic Captain'
             ]
         }
     ]

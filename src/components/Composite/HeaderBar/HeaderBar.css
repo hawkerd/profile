@@ -11,6 +11,7 @@
     border-bottom-left-radius: 12px;
     padding: 2px;
     padding-right: 15px;
+    box-shadow: 0 0 8px rgba(225, 225, 225);
 }
 
 .header-bar__title {
@@ -30,12 +31,12 @@
 }
 
 .header-bar button:hover {
-    background-color: rgba(209, 207, 228, 0.8);
+    background-color: rgba(229, 240, 248, 0.8);
     border-radius: 5px;
 }
 
 .header-bar__buttons--active {
-    background-color: rgba(209, 207, 228, 0.8);
+    background-color: rgba(229, 240, 248, 0.8);
     border-radius: 5px;
     border-style: solid;
     border-color: black;

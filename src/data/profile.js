@@ -34,6 +34,11 @@ const profile = {
             iconPath: 'icons/docker.png',
             iconName: 'DockerHub',
             linkUrl: 'https://hub.docker.com/u/hawkerd'
+        },
+        {
+            iconPath: 'icons/resume.png',
+            iconName: 'Resume',
+            linkUrl: 'project media/resume.pdf'
         }
     ]
 }

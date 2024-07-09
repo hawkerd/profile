@@ -7,7 +7,7 @@
     border-radius: 8px;
     padding: 16px;
     margin: 16px 0;
-    background-color: #fff;
+    background-color: rgba(245, 251, 255, 0.8);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
 }

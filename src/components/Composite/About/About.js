@@ -10,7 +10,9 @@ import about from '../../../data/about';
 const About = () => {
     return (
         <div className="about">
-            <p>{about.paragraph}</p>
+            {about.paragraph.map((text, index) => (
+                <p key={index}>{text}</p>
+            ))}
             <div className="about__cards">
                 {about.cards.map((card, index) => (
                     <CompanyCard

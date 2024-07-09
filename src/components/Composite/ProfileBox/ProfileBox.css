@@ -7,9 +7,10 @@
     border-radius: 12px;
     border: 2px solid black;
     max-width: 300px;
-    background-color: rgba(209, 207, 228, 0.8);
+    background-color: rgba(245, 251, 255, 0.8);
     margin: 15px;
     padding: 15px;
+    box-shadow: 0 0 8px rgb(110, 110, 110);
 }
 
 .profile-box__photo {

@@ -5,22 +5,15 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, auto);
     justify-content: center;
-    gap: 16px;
-    background-color: rgba(209, 207, 228, 0.8);
-    border: 2px solid black;
+    gap: 4px;
+    background-color: rgba(245, 251, 255, 0.8);
+    border: 1px solid black;
     border-radius: 12px;
-    padding: 15px;
+    padding: 4px;
 }
 
 .tech-stack__category {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0;
-}
-
-.tech-stack__category-title {
-    font-size: 0.8rem;
-    font-weight: 700;
-    margin-top: 0.5rem;
 }
