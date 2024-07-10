@@ -1,5 +1,5 @@
 const profile = {
-    profilePhotoUrl: 'project media/jp.png',
+    profilePhotoUrl: 'project media/headshot.png',
     name: 'Daniel Hawker',
     title: 'Software Engineer',
     contacts: [
