@@ -6,25 +6,39 @@ const projects = [
     {
         title: "ProMix V",
         url: "https://www.graco.com/content/dam/graco/ipd/literature/flyers/345229/345229EN-A.pdf",
-        summary: "Graco's next generation ProMix, their industrial plural component proportioner",
+        summary: "Industry-leading plural component proportioner (Graco)",
         details: [
-            "Developed and debugged complex state machine logic in C and Structured Text to handle I/O, GUI, and system control.",
-            "Refactored large sections of the codebase into reusable libraries to improve code quality and readability by using an object oriented design.",
-            "Took on a leadership role on the Minneapolis development team, and helped manage the offshore team in India.",
-            "Used Git and BitBucket for version control and Jira for project management.",
-            "Practiced Agile development, including daily standups and regular sprints, retrospectives, and release cycles."
+            "Developed robust embedded software in C and Structured Text, enhancing machine control processes and user interfaces.",
+            "Refactored highly coupled sections of the codebase into modular libraries, improving scalability and reusability.",
+            "Designed and implemented algorithms to handle proportioning, color changes, and purging sequences, reducing customer material waste and cost",
+            "Led a cross-functional development team across Minneapolis and Delhi, managing pull requests and conducting thorough code reviews.",
+            "Oversaw the development from the Delhi team through management of pull requests and code review",
+            "Utilized Git and BitBucket for version control and Jira for agile project management, ensuring continuous integration and smooth release cycles.",
+            "Applied Scrum methodology with bi-weekly sprints, daily standups, and retrospectives."
         ],
-        technologies: [technologies.C, technologies.StructuredText, technologies.Git, technologies.BitBucket, technologies.Jira, technologies.Atlassian],
+        technologies: [technologies.C, technologies.StructuredText, technologies.CoDeSys, technologies.Linux, technologies.Git, technologies.BitBucket, technologies.Jira],
         media: "project media/promix.png"
+    },
+    {
+        title: "STL Clone",
+        url: "https://github.com/hawkerd/stl",
+        summary: "Custom implementation of key components of the C++ Standard Library (STL).",
+        details: [
+            "Implemented core STL data structures and algorithms from scratch, including vector, list, map, and set, mimicking the behavior and performance of their standard counterparts.",
+            "Conducted extensive testing and benchmarking to ensure compatibility and performance comparable to the standard STL
+        ],
+        technologies: [technologies.CPlusPlus, technologies.Git],
+        media: "project media/stl.png"
     },
     {
         title: "Portfolio Website",
         url: "",
-        summary: "This website, showcasing my projects and experience",
+        summary: "A personal portfolio website to showcase my projects and experience in software development.",
         details: [
-            "Served as an introduction to front end development, using React and Node.js with HTML, CSS, and JavaScript.",
-            "Used Git for version control and deployed the site using GitHub Pages.",
-            "Focused on creating a clean, easy to read, responsive design that showcased my projects and experience."
+            "Developed a responsive website using HTML, CSS, and JavaScript, utilizing technologies including React and Node.js, for a dynamic front-end experience.",
+            "Created modular React components to dynamically showcase projects, experiences, and more.",
+            "Integrated Git for version control to manage the development process.",
+            "Deployed the website using GitHub Pages, optimizing the build process and ensuring a smooth deployment pipeline.",
         ],
         technologies: [technologies.React, technologies.NodeJs, technologies.HTML, technologies.CSS, technologies.JavaScript, technologies.Git],
         media: "project media/visualizer.png"
@@ -33,12 +47,13 @@ const projects = [
     {
         title: "Drone Simulation",
         url: "https://hub.docker.com/repository/docker/hawkerd/drone_simulation_final/general",
-        summary: "Advanced model that simulates a drone package delivery system surrounding the University of Minnesota",
+        summary: "An advanced simulation model for a drone package delivery system around the University of Minnesota.",
         details: [
-            "This was a semester-long project done at the University of Minnesota. I worked with three other students to develop the full stack simulation.",
-            'Used Git for version control, Jira for project management, and Docker for deployment.',
-            "Integrated backend C++ logic with a frontend UI built with HTML, CSS, and TypeScript.",
-            "Used design patterns like Builder, Decorator, and Abstract Factory to improve upon and add functionality to the system."
+            "Collaborated with a team of three University of Minnesota students to develop a comprehensive full-stack drone simulation.",
+            "Developed the backend logic in C++ and integrated it with a frontend UI built with HTML, CSS, and TypeScript",
+            "Utilized Git for version control, Jira for agile project management, and Docker for containerized deployment",
+            "Implemented advanced design patterns such as Builder, Decorator, and Abstract Factory to enhance system scalability and maintainability.",
+            "Conducted extensive testing and debugging to ensure accurate functionality"
         ],
         technologies: [technologies.CPlusPlus, technologies.TypeScript, technologies.HTML, technologies.CSS, technologies.Git, technologies.Docker, technologies.Jira],
         media: "project media/drone simulation.png"
@@ -48,13 +63,14 @@ const projects = [
         url: "https://github.com/hawkerd/visualizer",
         summary: "Application that visualizes common sorting and pathfinding algorithms",
         details: [
-            "Written in C++ and uses OpenGL for rendering through libraries including GLFW and GLEW.",
-            "Maintains a client-side database system using SQLite to store user preferences.",
-            "Required a deep understanding of the algorithms used, which was a great learning experience."
+            "Developed using C++ with OpenGL for rendering, utilizing libraries such as GLFW and GLEW to create interactive visualizations of algorithms.",
+            "Implemented a client-side database system with SQLite to efficiently store and retrieve user preferences",
+            "Gained an in-depth knowledge of sorting and pathfinding algorithms"
         ],
         technologies: [technologies.CPlusPlus, technologies.OpenGL, technologies.SQLite, technologies.Git],
         media: "project media/visualizer.png"
-    }
+    },
+
 ];
 
 export default projects;
