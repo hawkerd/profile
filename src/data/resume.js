@@ -58,12 +58,11 @@ const resume = {
             dateRange: { start: 'May 2024', end: 'Present' },
             location: { city: 'Minneapolis', state: 'Minnesota', country: 'USA' },
             details: [
-                'Worked on the software development team of ProMix V, Graco’s upcoming flagship proportioning system.',
-                'Developed, tested, refactored, and bug fixed code written in C and Structured Text to help Graco meet their product deadlines and field test release dates.',
-                'Practiced agile development with a Minneapolis team and an offshore team in India through Jira.',
-                'Participated in daily standups and regular sprints, retrospectives, and release cycles.',
-                'Managed pull requests, code review, and revision for the offshore team using Git and BitBucket.',
-                'Learned how to develop software and work professionally under management with high expectations.'
+                'Worked on the software development team of ProMix V, Graco’s flagship industrial proportioning system.',
+                'Took on a leadership role by reviewing code and providing feedback to the offshore team, and by helping to manage the release cycle.',
+                'Enhanced understanding of software engineering principles and practices, especially those related to embedded systems and automation.',
+                'Developed strong communication and collaboration skills through interaction with teams across different locations and time zones.',
+                'Practiced agile and scrum methodologies, using tools like Jira, Git, and BitBucket to ensure timely and successful releases.',
             ]
         },
         {
