@@ -42,7 +42,7 @@ const projects = [
             "Deployed the website using GitHub Pages, optimizing the build process and ensuring a smooth deployment pipeline.",
         ],
         technologies: [technologies.React, technologies.NodeJs, technologies.HTML, technologies.CSS, technologies.JavaScript, technologies.Git],
-        media: "project media/visualizer.png"
+        media: "project media/profile.png"
 
     },
     {
