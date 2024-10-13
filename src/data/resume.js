@@ -4,50 +4,56 @@ import technologies from './technologies';
 const resume = {
     techStack: {
         backend: [
-            technologies.C,
+            technologies.Go,
+            technologies.Java,
             technologies.CPlusPlus,
             technologies.Python,
-            technologies.Java,
+            technologies.C,
             technologies.OCaml,
             technologies.StructuredText,
             technologies.Assembly
         ],
         frontend: [
             technologies.JavaScript,
+            technologies.TypeScript,
             technologies.HTML,
             technologies.CSS,
-            technologies.TypeScript
-        ],
-        technologies: [
-            technologies.OpenGL,
-            technologies.SQLite,
-            technologies.NodeJs,
-            technologies.React
+            technologies.React,
+            technologies.NextJs,
+            technologies.TailwindCSS,
+            technologies.OpenGL
         ],
         tools: [
             technologies.Git,
             technologies.Docker,
             technologies.GDB,
-            technologies.R,
             technologies.Valgrind,
             technologies.UML
         ],
         software: [
-            technologies.Atlassian,
-            technologies.Office,
-            technologies.CoDeSys,
+            technologies.GitHub,
+            technologies.DockerHub,
             technologies.VsCode,
             technologies.IntelliJ,
+            technologies.Atlassian,
+            technologies.Jira,
+            technologies.BitBucket,
+            technologies.Office,
             technologies.MatLab,
             technologies.Mathematica,
-            technologies.GitHub,
-            technologies.DockerHub
+            technologies.R
+        ],
+        database: [
+            technologies.PostgreSQL,
+            technologies.SQLite,
+            technologies.AWS,
+            technologies.NodeJs
         ],
         systems: [
             technologies.Linux,
             technologies.Windows,
             technologies.MacOS
-        ],
+        ]
 
     },
     workPositions: [
@@ -58,11 +64,11 @@ const resume = {
             dateRange: { start: 'May 2024', end: 'Present' },
             location: { city: 'Minneapolis', state: 'Minnesota', country: 'USA' },
             details: [
-                'Worked on the software development team of ProMix V, Graco’s flagship industrial proportioning system.',
-                'Took on a leadership role by reviewing code and providing feedback to the offshore team, and by helping to manage the release cycle.',
-                'Enhanced understanding of software engineering principles and practices, especially those related to embedded systems and automation.',
-                'Developed strong communication and collaboration skills through interaction with teams across different locations and time zones.',
-                'Practiced agile and scrum methodologies, using tools like Jira, Git, and BitBucket to ensure timely and successful releases.',
+                'Led a cross-functional team across Minneapolis and Delhi, managing pull requests, conducting thorough code reviews, and driving decisions on the project roadmap and release cycle.',
+                'Developed and optimized embedded Linux software for Graco’s ProMix V, using C and Structured Text (CoDeSys), significantly enhancing machine control processes and user interface responsiveness.',
+                'Added features to save customer time, reduce material costs, and minimize environmental impact, directly contributing to Graco’s sustainability and cost-efficiency goals.',
+                'Performed extensive regression testing, improving software reliability for important launches and field tests.',
+                'Practiced Agile methodologies through daily standups and sprints, using tools like Jira, Git, and BitBucket.'
             ]
         },
         {
@@ -97,9 +103,8 @@ const resume = {
             dateRange: { start: 'September 2022', end: 'Present (May 2025)' },
             location: { city: 'Minneapolis', state: 'Minnesota', country: 'USA'},
             details: [
-                'At the U, I truly found my stride and passion. I decided to study computer science because I love programming and problem solving, and it lines up closely with how I think; I have always been an engineer at heart. I am also studying mathematics, because I believe it teaches me to think critically, and is a foundation to any engineering discipline. I am hoping to use this education to propel me into a career in software engineering, where I can continue to learn and grow.',
                 'Academics: 3.941 GPA, CSE Dean\'s List',
-                'Relevant Coursework: Data Structures, Algorithms, Computer Architecture, Operating Systems, Discrete Mathematics, Linear Algebra, Calculus, Statistics, Physics'
+                'Relevant coursework: Artificial Intelligence, Machine Architecture, Operating Systems, Networking, Functional Programming, Discrete Mathematics, Linear Algebra, Algorithms & Data Structures'
             ]
         },
         {
@@ -109,7 +114,6 @@ const resume = {
             dateRange: { start: 'September 2018', end: 'June 2022' },
             location: { city: 'Monona', state: 'Wisconsin', country: 'USA' },
             details: [
-                'My time at MGHS was spent figuring out what I wanted to do with my life. I took a variety of technical classes, played on the hockey team, and worked part time. I left with a strong foundation in engineering and mathematics, and a desire to learn much more at the University of Minnesota.',
                 'Academics: 3.99 GPA, 35 ACT, 1550 SAT, 8 APs',
                 'Honors and Awards: National Merit Scholar, National Honor Society, Hockey Team Academic Captain'
             ]

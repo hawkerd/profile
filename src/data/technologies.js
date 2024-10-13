@@ -38,6 +38,11 @@ const technologies = {
     GitHub: { logo: 'icons/github.png', name: 'GitHub' },
     DockerHub: { logo: 'icons/docker.png', name: 'DockerHub' },
     Assembly: { logo: 'icons/intel.png', name: 'x86 ASM' },
+    PostgreSQL: { logo: 'icons/postgresql.png', name: 'PostgreSQL' },
+    AWS: { logo: 'icons/aws.png', name: 'Amazon Web Services' },
+    NextJs: { logo: 'icons/nextjs.png', name: 'Next.js' },
+    TailwindCSS: { logo: 'icons/tailwind.png', name: 'Tailwind CSS' },
+    Go: { logo: 'icons/go.png', name: 'Go'}
 };
 
 export default technologies;
